@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="show_bass"
+        android:summaryOff="@string/pref_show_summary_off"
+        android:summaryOn="@string/pref_show_summary_on"
+        android:title="@string/pref_show_bass_label" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="show_mid"
+        android:summaryOff="@string/pref_show_summary_off"
+        android:summaryOn="@string/pref_show_summary_on"
+        android:title="@string/pref_show_mid_label" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="show_treble"
+        android:summaryOff="@string/pref_show_summary_off"
+        android:summaryOn="@string/pref_show_summary_on"
+        android:title="@string/pref_show_treble_label"/>
+
+
+
+
+</PreferenceScreen>
