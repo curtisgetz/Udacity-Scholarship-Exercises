@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+    <!--   (2) Create a res->bools.xml file and create a boolean for this default value -->
+    <!--   (3) Update these values to be values from resource files and not hard coded -->
 
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- TODO (2) Create a res->bools.xml file and create a boolean for this default value -->
-    <!-- TODO (3) Update these values to be values from resource files and not hard coded -->
 
-    <CheckBoxPreference
-        android:defaultValue="true"
-        android:key="show_bass"
-        android:summaryOff="Hidden"
-        android:summaryOn="Shown"
-        android:title="Show Bass" />
+    <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-</PreferenceScreen>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="show_bass"
+            android:summaryOff="@string/pref_show_summary_off"
+            android:summaryOn="@string/pref_show_summary_on"
+            android:title="@string/pref_show_bass_label" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="show_mid"
+            android:summaryOff="@string/pref_show_summary_off"
+            android:summaryOn="@string/pref_show_summary_on"
+            android:title="@string/pref_show_mid_label" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="show_treble"
+            android:summaryOff="@string/pref_show_summary_off"
+            android:summaryOn="@string/pref_show_summary_on"
+            android:title="@string/pref_show_treble_label"/>
+
+
+
+
+    </PreferenceScreen>
