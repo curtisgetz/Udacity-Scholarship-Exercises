@@ -23,7 +23,7 @@ import android.support.v7.widget.RecyclerView;
 public class MainActivity extends AppCompatActivity {
 
     // COMPLETED (1) Create a private static final int called NUM_LIST_ITEMS and set it equal to 100
-    private static final int NUM_LIST_ITEMS = 100;
+    private static final int NUM_LIST_ITEMS = 50;
 
     // COMPLETED (2) Create a GreenAdapter variable called mAdapter
     /*
