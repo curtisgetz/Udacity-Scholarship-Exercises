@@ -46,6 +46,7 @@ public class VisualizerActivity extends AppCompatActivity {
         mVisualizerView = (VisualizerView) findViewById(R.id.activity_visualizer);
         //setupSharedPreferences();
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
+
         boolean showBass = sharedPreferences.getBoolean("show_bass", false);
         boolean showMid = sharedPreferences.getBoolean("show_mid", false);
         boolean showTreble = sharedPreferences.getBoolean("show_treble", false);

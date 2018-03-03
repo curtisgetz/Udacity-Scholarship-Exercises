@@ -16,6 +16,7 @@
 
 package com.example.android.todolist.data;
 
+import android.content.ContentResolver;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;

@@ -120,6 +120,7 @@ public class MainActivity extends AppCompatActivity {
             try {
                 githubSearchResults = NetworkUtils.getResponseFromHttpUrl(searchUrl);
             } catch (IOException e) {
+                System.out.println("DO IN BACKGROUN CATCH");
                 e.printStackTrace();
             }
             return githubSearchResults;

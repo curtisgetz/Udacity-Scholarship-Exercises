@@ -77,15 +77,17 @@ public class NetworkUtils {
 
             Scanner scanner = new Scanner(in);
             scanner.useDelimiter("\\A");
-
+            System.out.println(" TRY BLOCK IN GET RESPONSE HTTP");
             boolean hasInput = scanner.hasNext();
             if (hasInput) {
+                System.out.println(" IF IN GET RESPONSE HTTP");
                 return scanner.next();
             } else {
+                System.out.println(" ELSE IN GET RESPONSE HTTP, THEN RETURN NULL");
                 return null;
             }
         } finally {
-            urlConnection.disconnect();
+             urlConnection.disconnect();
         }
     }
 }

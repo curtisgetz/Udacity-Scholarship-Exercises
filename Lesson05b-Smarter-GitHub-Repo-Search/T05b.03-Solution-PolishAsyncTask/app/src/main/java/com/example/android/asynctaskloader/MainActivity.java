@@ -278,5 +278,6 @@ public class MainActivity extends AppCompatActivity implements
 
         String queryUrl = mUrlDisplayTextView.getText().toString();
         outState.putString(SEARCH_QUERY_URL_EXTRA, queryUrl);
+
     }
 }
