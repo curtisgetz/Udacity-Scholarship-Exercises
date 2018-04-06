@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
         mBinding.flightInfo.textViewFlightCode.setText(info.flightCode);
         mBinding.flightInfo.textViewDestinationAirport.setText(info.destCode);
 
+
         SimpleDateFormat formatter = new SimpleDateFormat(getString(R.string.timeFormat), Locale.getDefault());
         String boardingTime = formatter.format(info.boardingTime);
         String departureTime = formatter.format(info.departureTime);
